@@ -1,0 +1,75 @@
+.owl-carousel .item{
+ /* border: 1px solid black; */
+ font-size: 24px;
+ text-align: center;
+ margin-top: 20px;;
+}
+
+.owl-next{
+ float:right;
+}
+.owl-prev{
+ float:left;
+}
+.owl-prev span{
+ font-size: 24px;
+ font-weight: bold;
+}
+.owl-next span{
+ font-size: 24px;
+ font-weight: bold;
+}
+.icons{
+    width: 80%;
+  }
+  .navbar{
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: #f5f5f5;
+    z-index: 9;
+  }  
+  .nav-items{
+    display: flex;
+    align-items: center;
+  }
+  .search{
+    width: 500px;
+    display: flex;
+  }
+  .search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+  }
+  .search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #000000;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .search-box::placeholder{
+    color: #a9a9a9;
+  }
+  .brand-logo{
+    width: 80%;
+    height: 50px;
+  }
+  .nav-link{
+      color: #000000;
+  }
